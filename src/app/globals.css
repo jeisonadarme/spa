@@ -63,3 +63,8 @@ body {
 .map {
   margin-bottom: -80px;
 }
+
+.hero-banner {
+  position: relative;
+  z-index: 35;
+}

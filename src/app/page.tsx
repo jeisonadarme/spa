@@ -101,7 +101,7 @@ export default function Home() {
                     </div>
                 </div>
             </nav>
-            <section>
+            <section className="hero-banner">
                 <div className="background-image">
                     <div className="flex items-center h-full justify-center bg-gray-900 bg-opacity-30">
                         <div className="max-w-xl text-center">
