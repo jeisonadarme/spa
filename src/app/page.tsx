@@ -92,7 +92,7 @@ export default function Home() {
 
     return (
         <main>
-            <nav id="header" className="w-full z-30 top-0 py-1 rounded-lg bg-white">
+            <nav id="header" className="w-full z-30 top-0 py-1 rounded-lg">
                 <div className="w-full container mx-auto flex flex-wrap items-center justify-center mt-0 px-6 py-3 rounded-lg">
                     <div className="order-1 md:order-2">
                         <a className="flex items-center tracking-wide no-underline hover:no-underline font-bold text-gray-800 text-xl " href="#">
@@ -113,7 +113,7 @@ export default function Home() {
                 </div>
             </section>
 
-            <section className="max-w-screen-xl mx-auto p-8 mt-8">
+            <section className="max-w-screen-xl mx-auto p-4 md:p-8 mt-8">
                 <div className="text-center mb-12">
                     <h1 className="text-gray-800">Ven y Explora</h1>
                     <h1 className="text-4xl font-bold mt-2 font-color-green">Nuestros Diferentes Tipos De Masajes</h1>
@@ -140,7 +140,7 @@ export default function Home() {
                 </div>
             </section>
 
-            <section className="max-w-screen-xl mx-auto p-8 bg-white rounded mt-8">
+            <section className="max-w-screen-xl mx-auto p-4 md:p-8 bg-white rounded mt-8">
                 <div className="text-center mb-12">
                     <h1 className="text-gray-800">La mejor experiencia con</h1>
                     <h1 className="text-4xl font-bold mt-2 font-color-green">Nuestras Flores</h1>
