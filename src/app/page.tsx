@@ -145,12 +145,11 @@ export default function Home() {
                     <h1 className="text-gray-800">La mejor experiencia con</h1>
                     <h1 className="text-4xl font-bold mt-2 font-color-green">Nuestras Flores</h1>
                     <p className="text-gray-700 mt-4 p-4">En nuestro spa, entendemos que cada persona es única y merece un tratamiento que se ajuste a sus necesidades individuales. La diversidad de nuestras masajistas garantiza que encontrarás la técnica y el estilo que mejor se adapten a ti, brindándote una experiencia de bienestar personalizada y memorable. Ven y descubre cuál de nuestras masajistas florece contigo.</p>
-
                 </div>
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-2">
                     {
                         flowersList.map((flower, index) => {
-                            return (<div key={flower.name} className="md:rounded-lg overflow-hidden shadow-lg bg-white md:bg-transparent md:shadow-none hover:shadow-lg hover:bg-white">
+                            return (<div key={flower.name} className="md:rounded-lg overflow-hidden bg-white md:bg-transparent md:shadow-none hover:shadow-lg hover:bg-white">
                                 <Image src={flower.image} width={300} height={300} alt={flower.name} className="w-full custom-shape" />
                                 <div className="p-6">
                                     <h3 className="text-xl font-bold text-center font-color-green">{flower.name}</h3>
